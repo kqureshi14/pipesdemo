@@ -10,10 +10,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Pipes Demo';
+  title = 'Advanced Pipes Demo';
   today = new Date();
-
   value = 1500;
+
+  user = {name:'Kaleem', age:150, email:'kaleem14you@gmail.com'};
 
   capString(item:string){
     return item.toUpperCase();
